@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_dependency('activerecord', ['>= 5.2', '< 7'])
-  gem.add_dependency('composite_primary_keys', ['>= 11.0', '< 13'])
+  gem.add_dependency('composite_primary_keys', ['>= 11.0', '< 14'])
   gem.add_dependency('activesupport', ['>= 5.2', '< 7'])
   gem.add_dependency('rgeo', '~> 1.0')
   gem.add_dependency('rgeo-geojson', '~> 2.0')
